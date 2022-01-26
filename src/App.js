@@ -5,12 +5,10 @@ import Home from "./components/homeComponent/home";
 import {MoviesContextProvider} from "./components/ContextComponent/MoviesContext"
 import AddMovie from "./components/InputComponent/addMovie";
 import View from "./components/ViewComponent/View";
-
+import Comments from "./components/CommentsComponent/Comments";
 
 function App() {
-  // useEffect(() => {
-  //   alert("Hello User, Welcome");
-  // },[])
+
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +18,7 @@ function App() {
         <AddMovie/>
         </MoviesContextProvider>
 
-        <View/>
+        <Comments/>
       </header>
     </div>
   );
