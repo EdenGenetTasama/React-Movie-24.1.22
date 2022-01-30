@@ -7,7 +7,7 @@ const View = () => {
   const [viewNum, setViewNum] = useState(0);
 
   useEffect(() => {
-    console.log({ viewNum });
+    // console.log({ viewNum });
   }, [viewNum]);
 
   const [user, setUser] = useState("");
